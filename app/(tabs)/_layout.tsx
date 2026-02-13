@@ -12,9 +12,7 @@ export default function TabsLayout() {
           headerShown: false,
           tabBarIcon: ({ focused }) => {
             <>
-              <ImageBackground source={images?.highlight}>
-                <Image />
-              </ImageBackground>
+              <ImageBackground source={images?.highlight}></ImageBackground>
             </>;
           },
         }}
